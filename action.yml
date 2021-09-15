@@ -1,4 +1,4 @@
-name: 'Publish Nuget package'
+name: 'Publish Nuget package for linux'
 description: 'Publish Nuget package to repository.'
 branding:
   icon: 'box'
