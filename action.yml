@@ -21,4 +21,4 @@ runs:
       run: |
         nuget push ${{ inputs.filename }} -Source ${{ inputs.repo-url }} -ApiKey ${{ inputs.api-key }} -SkipDuplicate
         Write-Host "done publishing packages"
-      shell: powershell
+      shell: pwsh
